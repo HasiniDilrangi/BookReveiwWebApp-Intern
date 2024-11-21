@@ -1,0 +1,59 @@
+
+/* Authcss.css */
+
+body {
+  background: url('C:\Users\DILRANGI\Downloads\Assingment\Assingment\frontend\src\img\7.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  margin: 0; 
+  background-color: #eaeaea; 
+}
+
+
+.container {
+  
+  max-width: 500px;
+  width: 90%; 
+  background-color: rgba(248, 249, 250, 0.8); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  padding: 20px;
+  backdrop-filter: blur(0px); 
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-size: 1.8rem;
+  color: #333; 
+}
+
+
+button {
+  display: block;
+  margin: 20px auto 0; 
+  width: 50%; 
+  font-size: 1rem;
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); 
+}
